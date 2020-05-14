@@ -1,7 +1,7 @@
 class QuotesController < ApplicationController
   def index
     quotes = QuotesQuery.coll(params)
-    render json: quotes
+    render json: quotes, meta: navigation_links(quotes, :quotes_url)
   end
 
   def create
