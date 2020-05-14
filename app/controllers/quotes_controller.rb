@@ -1,6 +1,6 @@
 class QuotesController < ApplicationController
   def index
-    quotes = Quote.all
+    quotes = QuotesQuery.coll(params)
     render json: quotes
   end
 
