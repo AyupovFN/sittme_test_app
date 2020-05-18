@@ -1,24 +1,15 @@
-# README
+## REST API на Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Требования:**
 
-Things you may want to cover:
+- Создать проект с тестовой моделью.
+- Миграция для создания модели с откатом.
+- Сиды (seed) для заполнения таблицы БД.
+- Роут списка элементов с курсорной пагинацией.
+- Сортировка по дате создания.
+- Роут добавления элемента при помощи формы. 
+- Валидации данных не требуются.
+- [x] Курсорную пагинацию реализовывать без гемов.
+- [x] Сериалайзер для вывода в JSON.
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
